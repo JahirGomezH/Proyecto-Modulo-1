@@ -219,13 +219,8 @@ a:hover {
 
 @media (min-width:770px) and (max-width:990px) {
     ul.linksbotton {
-        display: none;
-        margin-top: 30.4vw;
-        width: 16vw;
-        position: absolute;
-        flex-direction: column;
-        background-color: #34495E;
-        transition: all 0.5s;
+        display: flex;
+        justify-content: space-evenly;
         }
         header.headerpage {
             width: 98vw;
