@@ -172,7 +172,7 @@ a:hover {
 @media (min-width:315px) and (max-width:415px) {
     header label {
         display: block;
-        width: .5vw;
+        width: 1vw;
         height: auto;
         margin-top: vw;
         margin-left: 3vw;
