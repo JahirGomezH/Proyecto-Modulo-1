@@ -237,6 +237,14 @@ a:hover {
             font-size: 1.5vw;
         }
 }
+@media (min-width:1024px) and (max-width:1280px){
+ul.linksbotton {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    margin: 1.2vw;
+    }
+}
 /*Introduction*/
 section.article {
     width: 98vw;
