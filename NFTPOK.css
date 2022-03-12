@@ -1,0 +1,581 @@
+/*Navbar*/
+
+header.headerpage {
+    width: 98vw;
+    height: auto;
+    display: flex;
+}
+
+header.headerpage {
+    background-color: #34495E;
+}
+
+nav.navbar {
+    display: flex;
+}
+
+.logopok {
+    width: 10.41vw;
+    height: auto;
+    margin-top: .5vw;
+    margin-left: .8vw;
+    display: flex;
+}
+
+header label {
+    display: none;
+    width: 1.5vw;
+    height: 1.5vw;
+    padding: .5vw;
+    margin-top: 0vw;
+    margin-right: 1vw;
+}
+
+#bin-check{
+    display: none;
+}
+
+img.menu {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+header label:hover {
+    cursor:pointer;
+    background-color: #34495E;
+}
+
+.linksbotton{
+    width: 48.8vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5vw;
+    margin-left: 3.6vw;
+}
+li {
+    list-style: none;
+}
+a.linknav {
+    display: inline-flex;
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+
+
+div.search {
+    display: flex;
+    margin-top: 1.5vw;
+    color: #fff;
+}
+
+p.textsearch {
+    display: flex;
+    margin: 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 1vw;
+}
+
+form {
+    margin-left: .36vw;
+}
+
+.input {
+    color: #191919;
+    padding: .78vw .78vw .78vw 1.82vw;
+    }
+
+
+
+a.Login {
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    font-size: 1vw;
+    margin-top: 1.3vw
+}
+
+div.Register {
+    margin-top: 0vw;
+    margin-left: 1.8vw;
+    display: flex;
+}
+
+div.separetor {
+        background: #fff;
+        margin: 1.4vw .9vw;
+        display: flex;
+        height: 1.25vw;
+        width: .1vw;
+}
+
+
+a:hover {
+    color: #D2ED4A;
+}
+@media (max-width:770px) {
+    
+
+    header label {
+        display: block;
+        width: 3.5vw;
+        height: auto;
+        margin-top: 0vw;
+        margin-left: 2vw;
+        margin-right: 15vw;
+    }
+    ul.linksbotton {
+        display: none;
+        margin-top: 17.4vw;
+        width: 15vw;
+        position: absolute;
+        flex-direction: column;
+        background-color: #34495E;
+        transition: all 0.5s;
+    }
+
+    li.linknav {
+        margin-left: 0;
+    }
+    
+    .logopok {
+        display: none;
+    }
+    div.search {
+        display: flex;
+        height: 1.5vw;
+        margin-top: 1.5vw;
+        margin-left: 10vw;
+        margin-right: 4.5vw;
+        color: #fff;
+    }
+    #browser{
+        height: 2.5vw;
+    }
+
+    #bin-check:checked ~ .linksbotton {
+        display: block;
+        margin-left: 0;
+    }
+
+    div.Register {
+        width:28vw;
+        margin-top: 1.5vw;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media (min-width:315px) and (max-width:415px) {
+    header label {
+        display: block;
+        width: .5vw;
+        height: auto;
+        margin-top: vw;
+        margin-left: 3vw;
+    }
+    ul.linksbotton {
+        display: none;
+        margin-top: 30.4vw;
+        width: 16vw;
+        position: absolute;
+        flex-direction: column;
+        background-color: #34495E;
+        transition: all 0.5s;
+    }
+    
+    .logopok {
+        display: none;
+    }
+    div.search {
+        display: flex;
+        height: 1.5vw;
+        margin-top: 1.5vw;
+        margin-left: 0vw;
+        margin-right: 2.5vw;
+        color: #fff;
+    }
+    #browser{
+        height: 2.5vw;
+    }
+
+    #bin-check:checked ~ .linksbotton {
+        display: block;
+    }
+
+    div.Register {
+        width:18vw;
+        margin-top: 1.5vw;
+        display: flex;
+        justify-content: end;
+    }
+}
+/*Introduction*/
+section.article {
+    width: 98vw;
+    height: 41.6vw;
+    margin: 0vw;
+}
+
+section.article {
+    background-image: url(./assets/images/High_resolution_wallpaper_background_ID_77700115997.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+
+h2.herotitle {
+    margin-top: 0vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.9vw;
+    color: #EAF23C;
+    padding-top: 2.34vw;
+    padding-left: 1.30vw;
+}
+
+p.herotext {
+    display: flex;
+    width: 39vw;
+    padding-top: 2.34vw;
+    padding-left: 1.30vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+p.herotext1 {
+    display: flex;
+    width: 39vw;
+    padding-top: 1.30vw;
+    padding-left: 1.30vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+    color: #fff;
+}
+
+h2.subtitletext {
+    margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5vw;
+    color: #EAF23C;
+    padding-top: 5.5vw;
+    padding-left: 1.30vw;
+}
+
+/*Gallery*/
+
+div.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: .7vw;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+div.titleshop {
+    display:inline-block;
+
+    width: 98vw;
+    height: auto;
+}
+
+h2.shop {
+    font-family: 'Staatliches', cursive;
+    font-size: 2.34vw;
+    text-align: center;
+    color: #000000;
+
+}
+
+
+img.pikaimg {
+    margin-left: 3vw;
+    width: 18.75vw;
+    height: auto;
+    object-fit: cover;
+    margin-top: 5.2vw;
+}
+
+.item {
+    width: 23.4vw;
+    height: 25.2vw;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery .textimage {
+width: 0vw;
+height: 25.2vw;
+background-color: #fff;
+opacity: 80%;
+position: absolute;
+top: 0%;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+h1.description {
+    color: rgb(181, 245, 63);
+    text-shadow: .05vw .05vw .05vw #000000;
+    font-size: 4vw;
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+}
+
+.item:hover .textimage {
+    width: 23.4vw;
+}
+
+.Fireimg {
+    margin-left: 3.1vw;
+    width: 23.4vw;
+    height: auto;
+    object-fit: cover;
+    margin-top: 5.2vw;
+}
+
+.draimg {
+    margin-left: 3.1vw;
+    width: 14vw;
+    height: auto;
+    object-fit: cover;
+    margin-top: 4.2vw;
+}
+@media (min-width:315px) and (max-width:415px) {
+    div.gallery{
+        margin-right: 3vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: .7vw;
+        align-items: center;
+        box-sizing: border-box;
+}
+
+/*News Section*/
+
+div.news {
+    background-image: url(./assets/images/High_resolution_wallpaper_background_ID_77700175903.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98vw;
+    height: 62.5vw;
+    margin-bottom: 0vw;
+}
+
+h2.newstitle {
+    font-family: 'Staatliches', cursive;
+    font-size: 3.9vw;
+    text-align: center;
+    color: #FED744;
+    padding-top: 5.2vw;
+    margin-bottom: 0;
+}
+
+h2.newstitle:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3)
+}
+
+p.summertext {
+    display: flex;
+    justify-content: center;
+    padding-top: .26vw;
+    padding-left: .26vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2vw;
+    color: #fff;
+    margin-top: 3.64vw;
+}
+
+div.summerimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 23.4vw;
+    margin-top: 5.2vw;
+}
+
+.imagesum {
+    width: 13vw;
+    height: auto;
+}
+
+.imagesum:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+p.textimages {
+    display: flex;
+    justify-content:center;
+    padding-top: .26vw;
+    padding-left: 15.28vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5vw;
+    color: #C3EF21;
+    margin-top: 2.5vw;
+    margin-bottom: 0vw;
+}
+
+/*Footer*/
+
+div.media {
+    display: inline-block;
+    background-image: url(./assets/images/purple-blue-gradient-linear-1920x1080-c2-9400d3-00bfff-a-150-f-14.svg);
+    background-repeat: no-repeat;
+    width: 98vw;
+    height: auto;
+    margin-top: 0;
+}
+
+div.invitation {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.9vw;
+    color: #fff;
+    text-align: center;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+}
+
+div.social {
+    margin-right: 2vw;
+    display: flex;
+    align-items: center;
+    margin-top: 0vw;
+
+}
+
+img.circle {
+    width: 3.64vw;
+    height: auto;
+    position: absolute;
+}
+
+
+div.Redes {
+    width: 98vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.image-redes {
+    display: inline-block;
+    width: 3vw;
+    height: auto;
+    padding-top: .62vw;
+    padding-left: .67vw;
+}
+
+.image-redes1 {
+    display:inline-block;
+    width: 3vw;
+    height: auto;
+    padding-top: .62vw;
+    padding-left: .62vw;
+}
+
+.image-redes2 {
+    display: inline-block;
+    width: 3vw;
+    height: auto;
+    padding-top: .67vw;
+    padding-left: .72vw;
+}
+
+div.social:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+@media (min-width:315px) and (max-width:415px){
+    img.circle {
+        margin-top: 1.5vw;
+        width: 5vw;
+        height: auto;
+        position: absolute;
+         }
+        .image-redes {
+            display: inline-block;
+            width: 4vw;
+            height: auto;
+            padding-top: .62vw;
+            padding-left: 1vw;
+        }
+        
+        .image-redes1 {
+            display:inline-block;
+            width: 3.5vw;
+            height: auto;
+            padding-top: .62vw;
+            padding-left: 1vw;
+        }
+        
+        .image-redes2 {
+            display: inline-block;
+            width: 4vw;
+            height: auto;
+            padding-top: .67vw;
+            padding-left: .72vw;
+        }
+}
+/*Footer end*/
+div.introductionapp {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8vw;
+    text-align: center;
+    color: #a7fe44;
+}
+
+
+.cellimg {
+    width: 8.9vw;
+    height: auto;
+    margin-right: 3.64vw;
+}
+
+.imagesapps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go {
+    width: 3.38vw;
+    height: 3.38vw;
+    margin-right: 2.6vw;
+}
+
+.unite {
+    width: 3.38vw;
+    height: 3.38vw;
+    margin-right: 2.6vw;
+}
+
+.download {
+    display: flex;
+    justify-content: space-evenly;
+    width: 5.2vw;
+    height: auto;
+    margin-right: 1.3vw;
+}
+.download1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 5.7vw;
+    height: auto;
+    margin-right: 2.6vw;
+}
