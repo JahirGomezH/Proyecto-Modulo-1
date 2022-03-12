@@ -207,11 +207,10 @@ a:hover {
     }
 
     div.Register {
-        width:0vw;
+        width:3vw;
         margin-top: 1.5vw;
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 }
 /*Introduction*/
