@@ -186,9 +186,9 @@ a:hover {
         background-color: #34495E;
         transition: all 0.5s;
     }
-    . menu {
-        width: 2.5vw;
-        height: auto;
+    .menu {
+        width: 4.5vw;
+        height: 4.5vw;
     }
     .logopok {
         display: none;
@@ -359,6 +359,7 @@ h1.description {
         gap: .7vw;
         align-items: center;
         box-sizing: border-box;
+    }
 }
 
 /*News Section*/
