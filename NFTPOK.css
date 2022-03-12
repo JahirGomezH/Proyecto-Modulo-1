@@ -221,6 +221,7 @@ a:hover {
     ul.linksbotton {
         display: flex;
         justify-content: space-evenly;
+        width: 40vw;
         }
         header.headerpage {
             width: 98vw;
