@@ -186,7 +186,10 @@ a:hover {
         background-color: #34495E;
         transition: all 0.5s;
     }
-    
+    . menu {
+        width: 2.5vw;
+        height: auto;
+    }
     .logopok {
         display: none;
     }
