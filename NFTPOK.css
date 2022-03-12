@@ -222,6 +222,7 @@ a:hover {
         display: flex;
         justify-content: space-evenly;
         width: 40vw;
+        margin: 1vw;
         }
         header.headerpage {
             width: 98vw;
