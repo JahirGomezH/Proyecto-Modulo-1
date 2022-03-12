@@ -216,6 +216,30 @@ a:hover {
         justify-content: flex-end;
     }
 }
+
+@media (min-width:770px) and (max-width:990px) {
+    ul.linksbotton {
+        display: none;
+        margin-top: 30.4vw;
+        width: 16vw;
+        position: absolute;
+        flex-direction: column;
+        background-color: #34495E;
+        transition: all 0.5s;
+        }
+        header.headerpage {
+            width: 98vw;
+            height: auto;
+            display: flex;
+        }
+        a.linknav {
+            display: inline-flex;
+            font-family: 'Staatliches', cursive;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1vw;
+        }
+}
 /*Introduction*/
 section.article {
     width: 98vw;
